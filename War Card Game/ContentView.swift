@@ -59,11 +59,9 @@ struct ContentView: View {
     }
     
     func deal(){
-       // randomize the player number
+       // randomize the player  and CPU's number on card
         playerCard = "card" + String(Int.random(in: 2...14))
-        
-        // randomize the CPU's number
-         cpuCard  = "card" + String(Int.random(in: 2...14))
+        cpuCard  = "card" + String(Int.random(in: 2...14))
         
         // update the score sheet
         
